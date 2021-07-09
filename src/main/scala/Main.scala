@@ -11,7 +11,7 @@ object Main {
             println(x, y)
         }
     def main(args: Array[String]): Unit = {
-        println("a")
+        println("aaa")
     }
 }
 
