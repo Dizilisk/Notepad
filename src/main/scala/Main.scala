@@ -1,17 +1,12 @@
 object Main {
 
-        class User {
+    case class User(name: String, number: Int) {
 
-            val user1 = new User {
-                val name = "Andrey"
-                val number = 1
-            }
-            val x = user1.name
-            val y = user1.number
-            println(x, y)
-        }
+    }
+
     def main(args: Array[String]): Unit = {
-        println("aaa")
+        val user1 = User("Andrey", 1)
+        println(user1)
     }
 }
 
